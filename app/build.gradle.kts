@@ -24,7 +24,7 @@ android {
         targetSdk = 37
         // release.sh passes a timestamp (yyMMddHH) so every APK installs over the last one
         versionCode = (project.findProperty("versionCode") as String?)?.toInt() ?: 1
-        versionName = "1.0"
+        versionName = "1.0.1"
     }
 
     signingConfigs {

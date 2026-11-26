@@ -105,7 +105,7 @@ private fun Consent(no: () -> Unit, yes: () -> Unit) {
             withStyle(SpanStyle(fontWeight = FontWeight.Bold)) { append("Google Gemini") }
             append(", outside the team. It sends Google what you type, your name, and the board's open tasks, people, upcoming meetings and action items.")
         }, style = T.sub)
-        Text("Never emails, attendance, private answers or anything confidential. The team saves chats to stop misuse of its key. See the Privacy Policy.", style = T.foot, color = P.secondary)
+        Text("Never emails, attendance, private answers or anything confidential. See the Privacy Policy.", style = T.foot, color = P.secondary)
         Row {
             OutlinedButton(onClick = no) { Text("Not now") }
             Spacer(Modifier.weight(1f))
@@ -124,7 +124,7 @@ private fun Intro(h: Helper, suggestions: List<String>, pick: (String) -> Unit) 
                 Text(if (M.canEdit) "Or tell it what to change. Nothing changes until you tap Do it." else "Tasks, meetings, who's on what.", style = T.caption, color = P.secondary)
             }
         }
-        Text("This runs on the team's own Gemini key, so we ask that you don't misuse it. Every chat is saved so misuse can be stopped. It can also get things wrong.",
+        Text("This runs on the team's own Gemini key, so we ask that you don't misuse it. It can also get things wrong.",
             style = T.caption, color = P.secondary)
         if (h.off.isNotEmpty()) Text(h.off, style = T.caption, color = Brand.amber)
         if (h.items.isEmpty()) FlowRow(horizontalArrangement = Arrangement.spacedBy(8.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
