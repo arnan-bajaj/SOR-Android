@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SOR Team</string>
+    <string name="notify_channel">Team board</string>
+    <string name="widget_description">The team\'s next meetings and the countdown to the next competition.</string>
+</resources>

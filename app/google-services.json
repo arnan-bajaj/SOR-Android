@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "14469766944",
+    "project_id": "frc6059-9e793",
+    "storage_bucket": "frc6059-9e793.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14469766944:android:a69c036fdfcca344018145",
+        "android_client_info": {
+          "package_name": "org.systemoverload.team"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14469766944-6grin3ghmevgij26timbhfrenfvbjvmd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.systemoverload.team",
+            "certificate_hash": "00118aaa86af85668eb9c36ad5f3c4c8c46c35a9"
+          }
+        },
+        {
+          "client_id": "14469766944-slldin4k1i7ojq4s4r8lfsogacrhpsi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkUqx2HVBpx5g1Q8cHHV_7nZWQn6CegQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14469766944-slldin4k1i7ojq4s4r8lfsogacrhpsi7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "14469766944-q6o4phn4d9om9rk81uoi3tg6bg785tar.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.systemoverload.team"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
