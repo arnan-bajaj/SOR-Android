@@ -22,7 +22,7 @@ android {
         applicationId = "org.systemoverload.team"
         minSdk = 26
         targetSdk = 37
-        // release.sh passes a timestamp (yyMMddHH) so every APK installs over the last one
+        // release.sh passes minutes since 1970 so every APK installs over the last one
         versionCode = (project.findProperty("versionCode") as String?)?.toInt() ?: 1
         versionName = "1.0.1"
     }
